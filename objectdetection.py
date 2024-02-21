@@ -42,7 +42,6 @@ while True:
     key=cv2.waitKey(1) & 0xFF
     if key == ord('q'):
         break
-
 cam.release()
 cv2.destroyallwindows()
         
